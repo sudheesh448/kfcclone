@@ -1,0 +1,201 @@
+.container{
+    width: 1226px;
+    
+    margin: 0;
+    margin-left: 0px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: auto;
+    display: grid;
+    flex-direction: row;
+}
+.top_fixed_main_div{
+    width: 100%;
+    
+    height: 137px;
+    position: fixed;
+    z-index: 1;
+    background-color: white;
+}
+.top_fixed_upper_div{
+    width: 100%;
+    
+    height: 47px;
+}
+#hr_top{
+    margin: 0;
+}
+.top_fixed_upper_inside{
+    width: 512px;
+    height: 39px;
+    
+    margin-left: 392px;
+    padding-top: 3px;
+}
+.top_fixed_upper_inside_left{
+    width: 28px;
+    height: 100%;
+    
+}
+.top_fixed_upper_inside_middle{
+    
+    width: 340px;
+    height: 100%;
+    margin-left: 28px;
+    margin-top: -39px;
+}
+.top_fixed_upper_inside_right{
+    
+    width: 144px;
+    height: 100%;
+    margin-left: 368px;
+    margin-top: -39px;
+}
+.google-location-img{
+    margin-top: 9px;
+    margin-left: 4px;
+}
+.setLocationText{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: #202124;
+    font-family: "National 2 Regular";
+    height: 32px;
+    padding-top: 5px;
+    line-height: 24px;
+}
+.button_top{
+    height: 32px;
+    font-size: 12px;
+    width: 99px;
+    font-family: "National2-Medium";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    padding: 5px 9px;
+    margin-left: 23px;
+    color: #fff;
+    background-color: #202124;
+    border: 1.5px solid #202124;
+    margin-left: 5px;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 10rem;
+    text-align: center;
+    font-family: "National 2 Regular";
+}
+.top_fixed_lower_header_logo{
+    width: 243px;
+    height: 88px;
+}
+.top_fixed_lower_menu{
+    width: 82px;
+    height: 88px;
+    margin-left: 243px;
+    margin-top: -88px;
+}
+.top_fixed_lower_deals{
+    width: 79px;
+    height: 88px;
+    
+    margin-left: 325px;
+    margin-top: -88px;
+}
+.header_logo{
+    margin: 38px 44.26px 39.48px 130px;
+    cursor: pointer;
+}
+.Menu_Button{
+    all: unset;
+    cursor: pointer;
+    position: relative;
+    margin: 0;
+    font-family: BlinkMacSystemFont;
+    font-size: inherit;
+    line-height: inherit;
+    border-radius: 0;
+    color: black;
+    text-decoration: none;
+    margin-top: 38px;
+    font-weight: 600
+}
+.Deals_Button{
+    all: unset;
+    cursor: pointer;
+    position: relative;
+    margin: 0;
+    font-family: BlinkMacSystemFont;
+    font-size: inherit;
+    line-height: inherit;
+    border-radius: 0;
+    color: black;
+    text-decoration: none;
+    margin-top: 38px;
+    font-weight: 600
+}
+.link{
+    text-decoration: none;
+}
+.top_fixed_lower_right_div{
+    width: 190px;
+    height: 47px;
+   
+    float: right;
+    margin-top: -66px;
+    margin-right: 118px;
+}
+.top_fixed_lower_right_left{
+    width: 62%;
+    height: 79%;
+    
+    margin-top: 6px;
+}
+.top_fixed_lower_right_left_left{
+    width: 35%;
+    height: 100%;
+    
+}
+.top_fixed_lower_right_left_right{
+   
+    height: 100%;
+    width: 65%;
+    margin-left: 42px;
+    margin-top: -59px;
+    border-right: #a0a1a1 2px solid;
+}
+.top_fixed_lower_right_right{
+    float: right;
+    width: 68px;
+    height: 36px;
+    margin-top: -37px;
+    
+}
+.top_fixed_lower_right_right_left{
+    
+    width: 22px;
+    height: 36px;
+
+}
+.top_fixed_lower_right_right_right{
+
+}
+.sign_in_img{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.sign_in_button{
+    padding-top: 11px;
+    color: black;
+}
+.bucket_image{
+    margin-top: -44px;
+    width: 48px;
+    padding-top: -20px;
+    margin-left: 22px;
+}
+.headerPrice{
+
+}
