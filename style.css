@@ -12,8 +12,7 @@
     flex-direction: row;
 }
 .top_fixed_main_div{
-    width: 100%;
-    
+    width: 1226px;
     height: 137px;
     position: fixed;
     z-index: 1;
@@ -21,7 +20,6 @@
 }
 .top_fixed_upper_div{
     width: 100%;
-    
     height: 47px;
 }
 #hr_top{
