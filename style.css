@@ -1,5 +1,5 @@
 .container{
-    width: 1226px;
+    width: 1348px;
     
     margin: 0;
     margin-left: 0px;
@@ -12,7 +12,7 @@
     flex-direction: row;
 }
 .top_fixed_main_div{
-    width: 1226px;
+    width: 1348px;
     height: 137px;
     position: fixed;
     z-index: 1;

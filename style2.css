@@ -94,5 +94,7 @@ background-color: hotpink;
     height: 39px;
     background-color: blue;
     margin-top: 51px;
+    display: grid;
+    grid-template-columns:;
 }
 
