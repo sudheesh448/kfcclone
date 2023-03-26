@@ -12,7 +12,7 @@ background-color: brown;
 .General_menu_container{
     width: 80%;
     height: 723px;
-    background-color: cornflowerblue;
+    
     margin-left: 123px;
     display: flex;
     flex-direction: column;
@@ -20,19 +20,34 @@ background-color: brown;
 .Brows_catogories_div{
     display: flex;
     flex-direction: row;
-    background-color: darkolivegreen;
+    
     width: 100%;
     height: 155px;
 }
 .Brows_catogories{
-    width: 508px;
+    width: 419px;
     height: 100%;
-    background-color: gainsboro;
+    
+}
+.browse{
+    margin-right: 31px;
+    font-family: "National2Condensed";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 43px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #202124;
+    margin-top: 61px;
+    margin-bottom: 55px;
+    float: right;
 }
 .line{
-    width: 100%;
-height: 100%;
-background-color: hotpink;
+    border-top: 2px solid #e3e3e3;
+    margin-top: 86px;
+    flex: 1 1;
+    margin-right: 9%;
 }
 .Menu_div{
     display: flex;
@@ -42,11 +57,40 @@ background-color: hotpink;
     align-content: space-between;
 }
 .menu{
-    width: 227px;
-    height: 250px;
-    background-color: deeppink;
+    width: 223px;
+    height: 213px;
+    background-color: #f8f7f5;
     margin-top: 8px;
+    display: grid;
+    grid-template-rows: 73% 27%;
     
+}
+.menu_cards_img{
+    width: 100%;
+    height: 100%;
+}
+.menu-text{
+    text-align: center;
+    font-family: "National2Condensed";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    color: #202124;
+    bottom: 7%;
+    text-decoration: none;
+    padding-top: 15px;
+}
+.menu_link{
+    text-decoration: none;
+}
+.menu_text_div{
+
+    width: 100%;
+    margin-top: -5px;
+    height: 57px;
 }
 .footer{
     width: 100%;
@@ -238,6 +282,10 @@ background-color: hotpink;
     display: flex;
     flex-direction: row;
     float: right;
+}
+@font-face{
+    font-family: National2Condensed ;
+src: url(National2Condensed-Bold.otf);
 }
 
 
