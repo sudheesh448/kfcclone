@@ -50,8 +50,8 @@ background-color: hotpink;
 }
 .footer{
     width: 100%;
-    height: 818px;
-    background-color: black;
+    height: 915px;
+    background-color: rgb(48, 46, 46);
 }
 .offer_container{
 
@@ -65,9 +65,38 @@ background-color: hotpink;
 .offers_and_deals{
     width: 71%;
     height: 65px;
-    background-color: aquamarine;
     margin-left: 199px;
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
+.offers_and_deals_right{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.offersViewAll-link{
+    float: right;
+    margin-top: 27px;
+    font-family: "National 2 Regular";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.offersViewAlldeals-arrow{
+    margin-top: 36px;
+   
+}
+.offersContainer-header{
+    font-family: "National 2 Condensed";
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 26px;
+    font-weight: 700;
+    color: #fff;
+}
+
 .offers_div{
     display: flex;
     flex-direction: row;
@@ -78,23 +107,137 @@ background-color: hotpink;
     justify-content: space-evenly;
 }
 .offer_tiles_div{
-    width: 260px;
-    height: 274px;
+    width: 261px;
+    height: 366px;
     background-color: blanchedalmond;
+    display: grid;
+    grid-template-rows: 53% 25% 25%;
+    border-radius: 10px;
+}
+.tile_middle_div{
+    display: grid;
+    grid-template-rows:50% 50% ;
+    background-color: white;
+}
+.tile_lower_div{
+    display: grid;
+    grid-template-columns:50% 50% ;
+    background-color: white;
+}
+.tile1{
+    height: 43px;
+    font-family: "National 2 Condensed";
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 43px;
+    color: #e4002b;
+    text-transform: uppercase;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+.chicken_text{
+    height: 48px;
+    font-family: "National 2 Regular";
+    font-weight: 400;
+    font-size: 14px;
+    color: #202124;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+.offersView-details{
+    border: none;
+    background: none;
+    text-decoration: underline;
+    padding: initial;
+    font-family: "National2-Medium";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    color: #494949;
+    margin-top: 32px;
+    margin-left: 26px;
+}
+.offers-redeem-button{
+    font-family: "National2-Medium";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    border: 1px solid #494949!important;
+    background-color: transparent;
+    border: 1px solid #202124;
+    color: #202124;
+    border: 2.5px solid #202124;
+    margin-left: 24px;
+    font-weight: 700;
+    border-radius: 13px;
+    margin-top: 28px;
+}
+.tile_image{
+    border-top-left-radius: 3%;
+    border-top-right-radius: 3%;
+    height: 196px;
 }
 .footer_menu{
     width: 85%;
     height: 185px;
-    background-color: brown;
+    
     margin-left: 101px;
     margin-top: 97px;
+    display: grid;
+    grid-template-columns: repeat(8,130px);
+    grid-gap: 10px;
 }
-.footer_end{
+.footer_end_div{
     width: 100%;
     height: 39px;
-    background-color: blue;
     margin-top: 51px;
-    display: grid;
-    grid-template-columns:;
+    
+    
 }
+.footer_grids{
+    
+    height: 100%;
+}
+.menu1{
+    display: grid;
+    grid-template-rows: repeat(5, 35px);
+    margin-top: -17px;
+}
+.support-links-menu{
+    font-weight: 400;
+    font-size: 14px;
+    color: #e3e3e3;
+    text-decoration: none;
+}
+.find_a_kfc_div{
+    display: flex;
+    flex-direction: row;
+}
+.footer_middle{
+    margin-left: 10px;
+}
+.copyright-text{
+    margin: 0;
+    font-family: "National 2 Regular";
+    font-size: 12px;
+    text-align: center;
+    opacity: .9;
+    line-height: 12px;
+    color: #dbdbdb;
+}
+.column_social-div{
+    margin-right: 11%;
+    display: flex;
+    flex-direction: row;
+    float: right;
+}
+
 
