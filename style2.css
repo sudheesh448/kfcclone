@@ -7,7 +7,34 @@
 .Welcome_to_KFC{
 height: 120px;
 width: 100%;
-background-color: brown;
+display: grid;
+grid-template-columns: 30% 70%;
+}
+.Welcome_to_KFC_internal_div{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+.Welcome_to_KFC_content_div{
+    display: grid;
+    grid-template-rows: 35% 65%;
+}
+.kfc_lines_top{
+    width: 40px;
+    height: 20px;
+    background: repeating-linear-gradient(90deg,#e4002b,#e4002b 8px,#fff 0,#fff 16px);
+}
+.welcome{
+    font-family: "National2Condensed";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 47px;
+    line-height: 38px;
+    text-transform: uppercase;
+    color: #202124;
+    margin-top: 2.71px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
 }
 .General_menu_container{
     width: 80%;
