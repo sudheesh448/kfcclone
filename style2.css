@@ -3,12 +3,48 @@
     height: 67px;
     background-color: black;
     margin-top: 136px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.headBottomTxt{
+    font-family: "National2Condensed";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    color: #fff;
+    margin: auto 15px auto auto;
+    float: right;
+    margin-top: 24px;
+}
+.button-contained{
+    background-color: #e4002b;
+    color: #fff;
+    cursor: pointer;
+    min-width: 8.6rem;
+    height: 2.75rem;
+    
+    border: 0;
+    border-radius: 1.4rem;
+    font-size: .9rem;
+    line-height: 2.75rem;
+    font-family: "National 2 Regular";
+    font-style: normal;
+    font-weight: 500;
+    text-align: center;
+    white-space: nowrap;
+    display: inline-block;
+    position: relative;
+    margin-top: 10px;
 }
 .Welcome_to_KFC{
 height: 120px;
 width: 100%;
 display: grid;
 grid-template-columns: 30% 70%;
+background-color: #f8f7f5;
 }
 .Welcome_to_KFC_internal_div{
     display: grid;
