@@ -233,7 +233,7 @@ background-color: #f8f7f5;
 }
 .tile1{
     height: 43px;
-    font-family: "National 2 Condensed";
+    font-family: "National2Condensed";
     font-size: 38px;
     font-weight: 700;
     line-height: 43px;
@@ -248,7 +248,7 @@ background-color: #f8f7f5;
 }
 .chicken_text{
     height: 48px;
-    font-family: "National 2 Regular";
+    font-family: "National2Condensed";
     font-weight: 400;
     font-size: 14px;
     color: #202124;
@@ -263,7 +263,7 @@ background-color: #f8f7f5;
     background: none;
     text-decoration: underline;
     padding: initial;
-    font-family: "National2-Medium";
+    font-family: "National2Condensed";
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
@@ -273,7 +273,7 @@ background-color: #f8f7f5;
     margin-left: 26px;
 }
 .offers-redeem-button{
-    font-family: "National2-Medium";
+    font-family: "National2Condensed";
     font-weight: 500;
     font-size: 14px;
     line-height: 24px;
